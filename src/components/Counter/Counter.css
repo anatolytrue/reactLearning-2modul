@@ -1,0 +1,27 @@
+.Counter{
+    width: 400px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.Counter__value{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.Counter__controls{
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+.Counter__controls > button{
+    background-color: rgb(108, 229, 238);
+    border-radius: 8px;
+    border: 1px solid grey;
+    padding: 10px;
+}
