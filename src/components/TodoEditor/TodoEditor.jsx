@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import css from './TodoEditor.css'
+import './TodoEditor.css'
 
 class TodoEditor extends Component{
     state = {
